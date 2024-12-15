@@ -22,7 +22,7 @@
   margin: auto;
   padding: 0 15px;
 }
-img {
+.jasur img {
   max-width: 100%;
 }
 .nav_left {
@@ -80,7 +80,7 @@ img {
   justify-content: center;
   border: none;
 }
-header > div {
+.jasur header > div {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -101,7 +101,7 @@ header {
 }
 .nav_right .sign2:hover {
   background-color: transparent;
-  color: #000;
+  color: var(--green);
   transition: 0.4s;
 }
 button {
@@ -160,7 +160,7 @@ header {
 }
 .showcase_left_item button:hover {
   background-color: transparent;
-  color: #000;
+  color: var(--green);
   border: 1px solid #bcd0e5;
   transition: 0.4s;
 }
@@ -211,7 +211,7 @@ header {
 }
 .product_btn button:hover {
   background-color: transparent;
-  color: #000;
+  color: var(--green);
   border: 1px solid #bcd0e5;
   transition: 0.4s;
 }
@@ -220,6 +220,7 @@ header {
   align-items: center;
   justify-content: center;
   margin-top: 49px;
+  padding-bottom: 90px;
 }
 .product {
   margin-bottom: 104px;
@@ -228,8 +229,15 @@ header {
   display: none;
 }
 .bars {
-  width: 30px;
+  font-size: 30px;
 }
+.product {
+  background-image: url(../img/png/Bg2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 @media (max-width: 1069px) {
   .showcase_left .tool {
     font-size: 15px;
@@ -245,7 +253,7 @@ header {
     display: none;
   }
   .showcase > div {
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -266,5 +274,18 @@ header {
   }
   .bars {
     display: block;
+  }
+}
+@media (max-width: 400px) {
+  .showcase_left_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .product_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
