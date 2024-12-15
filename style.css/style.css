@@ -26,9 +26,499 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.diyorbek{
+    
+}
+.diyorbek .cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+.diyorbek .card .logo{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+   
+}
+.diyorbek .cards .card{
+    display: flex;
+    flex-direction: column;
+    h3{
+        font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      margin-top: 10px;
+    }
+    p{
+        margin-bottom: 15px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 35px;
+    }
+}
+.diyorbek .card input{
+    max-width: 325px;
+    height: 48px;
+    border: none;
+    outline: none;
+}
+.diyorbek .input{
+    max-width: 325px;
+    height: 50px;
+    border: 1px solid var(--black);
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-top: 34px;
+    margin-bottom: 29px;
+    border-radius: 8px;
+}
+.diyorbek button{
+    width: 131px;
+    height: 39px;
+    background-color: var(--green);
+    color: var(--white);
+    border: 1px solid var(--green);
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size:  16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.diyorbek button:hover{
+    background-color: var(--white);
+    color: var(--green);
+}
+.diyorbek .cards_bottom{
+    margin: 45px 0 15px 0;
+    h3{
+        text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+.diyorbek .iconka{
+    column-gap: 10px;
+    margin: 24px 0;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
 /*=================================== responsive planshet ========================================*/
 @media screen and (max-width:768px) {
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .diyorbek .cards{
+        
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .diyorbek .card{
+        margin: auto;
+        align-items: center;
+        text-align: center;
+    }
+    .diyorbek .input{
+        width: 100%;
+        input{
+            width: 95%;
+        }
+    }
 }
 
 
