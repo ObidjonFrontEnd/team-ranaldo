@@ -300,7 +300,7 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 21.94px;
-    border: none;
+    border: 1px solid var(--white);
     border-radius: 8px;
     width: 139px;
     height: 44px;
@@ -409,9 +409,13 @@ font-weight: 600;
 line-height: 30px;
 color: var(--green);
 background-color: var(--white);
-border: none;
+border: 1px solid var(--white);
 border-radius: 8px;
 
+}
+.muhammadali .prezintation .box-left button:hover{
+    background-color: var(--green);
+    color: var(--white);
 }
 .box-right{
     width: 80%;
