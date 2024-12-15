@@ -25,15 +25,282 @@
 
 
 
+.jamshid{
+    background-image: url(./img/png/Bg.png);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+}
 
-/*=================================== responsive planshet ========================================*/
-@media screen and (max-width:768px) {
-    
+/* ========================================= EXPERT START ========================================= */
+
+.expert{
+    background-image: url(./img/png/Bg.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+}
+.expert-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 963px;
+    min-height: 469px;
+    margin: auto;
+}
+.expert-title h2{
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-top: 52px;
+    color: var(--black);
+}
+.expert-title p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    max-width: 542px;
+    height: auto;
+    margin-top: 16px;
+    color: var(--black);
+}
+.expert-middle{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin-top: 32px;
+    gap: 30px;
+}
+.expert-left-top{
+    display: flex;
+    align-items: center;
+}
+.expert-left-top img{
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    border: 3px solid red;
+}
+.expert-left-top p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    max-width: 274px;
+    min-height: 53px;
+    border-radius: 26.5px;
+    background-color: var(--white);
+    padding: 15px 24px 20px 25px;
+    margin-left: 16px;
+    color: #2F281E;
+}
+.expert-left-bottom{
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+.expert-left-bottom img{
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    border: 3px solid var(--green);
+}
+.expert-left-bottom p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    max-width: 263px;
+    min-height: 53px;
+    border-radius: 26.5px;
+    background-color: var(--white);
+    padding: 15px 30px 20px 33px;
+    margin-right: 16px;
+    color: #2F281E;
+}
+.expert-right-top{
+    display: flex;
+    align-items: center;
+    }
+.expert-right-top img{
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    border: 3px solid var(--violet);
+}
+.expert-right-top p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    max-width: 240px;
+    min-height: 53px;
+    border-radius: 26.5px;
+    background-color: var(--white);
+    padding: 15px 18px 20px 22px;
+    margin-right: 16px;
+    color: #2F281E;
+}
+.expert-right-bottom{
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+.expert-right-bottom img{
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    border: 3px solid var(--light-blue);
+}
+.expert-right-bottom p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    max-width: 281px;
+    min-height: 53px;
+    border-radius: 26.5px;
+    background-color: var(--white);
+    padding: 14px 19px 21px 23px;
+    margin-left: 16px;
+    color: #2F281E;
+}
+.expert-button button{
+    width: 216px;
+    height: 53px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 48px auto 150px;
+    background-color: var(--green);
+    color: var(--white);
+    border: none;
+    border-radius: 4px;
+}
+.expert-button button:hover{
+    background-color: var(--black);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/* ========================================= STRATEGIE START ========================================= */
+
+.strategie-title h2{
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+    color: var(--black);
+}
+.strategie-title p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-top: 8px;
+}
+.strategie-cart{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 32px;
+    margin-top: 33px;
+}
+.strategie-cart .carts{
+    max-width: 348px;
+    min-height: 359px;
+    border-radius: 8px;
+    border: 2px solid #e7e7e7;
+}
+.strategie-cart .carts img{
+    width: 100%;
+    height: 189px;
+}
+.strategie-cart .carts-title{
+    padding: 24px;
+}
+.strategie-cart .carts-title p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--black);
+}
+.strategie-cart .carts-title span{
+    font-weight: bold;
+}
+.strategie-cart .carts-title h3{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    color: var(--black);
+    margin-top: 12px;
+}
+.strategie-cart .carts:hover .carts-title h3{
+    color: var(--green);
+}
+.strategie-dotted{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 64px;
+    margin-bottom: 150px;
+}
+.strategie-dotted button{
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: #EFEFEF;
+    border: none;
+    text-align: center;
+}
+.strategie-dotted button:nth-of-type(2){
+    background-color: var(--green);
+}
+.strategie-dotted button:hover{
+    background-color: var(--green);
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 
 
+/*=================================== responsive planshet ========================================*/
+@media screen and (max-width:768px) {
+    .expert-middle{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .expert-left-bottom{
+        flex-direction: row-reverse;
+    }
+    .expert-right-top{
+        flex-direction: row-reverse;
+    }
+    .expert-left-bottom p{
+        margin-left: 16px;
+    }
+    .expert-right-top p{
+        margin-left: 40px;
+    }
+    .strategie-title{
+        text-align: center;
+    }
+    .strategie-cart{
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+}
+
 /*================================== responsive telefon========================================== */
-@media screen and (max-width) {
-    
+@media screen and (max-width: 468px) {
+  
 }
