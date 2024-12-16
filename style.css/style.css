@@ -400,11 +400,12 @@ header {
     margin: 48px auto 150px;
     background-color: var(--green);
     color: var(--white);
-    border: none;
+    border: 1px solid var(--green);
     border-radius: 4px;
 }
 .expert-button button:hover{
-    background-color: var(--black);
+    background-color: var(--white);
+    color:var(--green);
     transition: 0.5s;
     cursor: pointer;
 }
