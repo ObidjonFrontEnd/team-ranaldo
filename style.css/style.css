@@ -683,12 +683,12 @@ header {
     border-radius: 32px;
     margin: auto;
     margin-bottom: 150px;
+    padding-bottom: 45px;
 }
 .muhammadali .prezintation .box-left{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    
+    justify-content: space-around;  
 }
 .muhammadali .prezintation .box-left h2{
     font-weight: 600;
