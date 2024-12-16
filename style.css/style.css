@@ -245,7 +245,7 @@ header {
 
 /*=================================================== jamshid========================================================================= */
 .jamshid{
-    background-image: url(./img/png/Bg.png);
+    background-image: url(../img/png/Bg.png);
     background-size: cover;
     background-position: center;
     height: auto;
@@ -254,7 +254,7 @@ header {
 /* ========================================= EXPERT START ========================================= */
 
 .expert{
-    background-image: url(./img/png/Bg.png);
+    background-image: url(../img/png/Bg.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -546,6 +546,11 @@ header {
     justify-content: center;
     align-items: center;
     gap: 20px;
+  }
+ .product_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 @media (max-width: 550px) {
