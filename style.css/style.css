@@ -1,39 +1,158 @@
-@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika:wght@300..700&display=swap');
-:root{
- --green:#02897A;
- --black:#22343D;
- --white:#fff;
- --light-blue:#4D8DFF;
- --violet:#740A76;
- --pink:#F03E3D;
- --orange:#FF9900;
+@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika:wght@300..700&display=swap");
+:root {
+  --green: #02897a;
+  --black: #22343d;
+  --white: #fff;
+  --light-blue: #4d8dff;
+  --violet: #740a76;
+  --pink: #f03e3d;
+  --orange: #ff9900;
 }
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    font-family: "Poppins", sans-serif;
-}
-
-.container{
-    max-width:1110px ;
-    margin: auto;
-    padding: 0 15px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
 }
 
+.container {
+  max-width: 1110px;
+  margin: auto;
+  padding: 0 15px;
+}
 
+.umar {
+  margin-bottom: 150px;
+}
+.umar .flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 85px;
+}
+.umar .photo {
+  max-width: 540px;
+  max-height: 474px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.umar .left h3 {
+  color: var(--black);
+  font-weight: 600;
+  font-size: 16px;
+}
 
+.umar .left h2 {
+  color: var(--black);
+  font-weight: 700;
+  font-size: 32px;
+}
+.umar .left p {
+  color: var(--black);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  max-width: 486px;
+  margin-top: 23px;
+}
+.umar .left h4 {
+  color: var(--black);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.625;
+  margin-top: 12px;
+}
 
+.umar .left h5 {
+  color: var(--black);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #22343d;
+  margin-top: 12px;
+}
+
+.umar .box {
+  display: flex;
+  height: 52px;
+  align-items: center;
+  column-gap: 20px;
+  p {
+    margin: 0 !important;
+  }
+}
+
+.umar .bt-1 {
+  background: #f90;
+  color: white;
+}
+
+.umar .bt-2 {
+  background: #f03e3d;
+  color: white;
+}
+
+.umar .bt-3 {
+  background: #4d8dff;
+  color: white;
+}
+
+.umar .icon {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.umar .icons {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.left {
+  margin-top: 50px;
+}
+
+.umar .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+}
 /*=================================== responsive planshet ========================================*/
-@media screen and (max-width:768px) {
-    
+@media screen and (max-width: 1027px) {
+  .umar .flex {
+    gap: 0;
+  }
+  .umar .flex h2,
+  h3,
+  h4,
+  h5 {
+    text-align: center;
+  }
+  .umar .df-1 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .umar .df-2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .umar .df-3 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
 }
-
-
 
 /*================================== responsive telefon========================================== */
 @media screen and (max-width) {
-    
 }
